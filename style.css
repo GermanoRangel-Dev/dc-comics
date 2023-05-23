@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -6,47 +6,57 @@
   color: none;
 }
 
-header{
+header {
   background-color: rgba(128, 128, 128, 0.535);
   display: flexbox;
   align-items: center;
   justify-content: space-around;
-  
 }
 
-.logoLJ{
+.textoBanner {
+  display: flex;
+  padding: 10px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  text-indent: 30px;
+  padding: 50px;
+  padding-left: 10px;
+}
+
+.logoLJ {
   width: 150px;
   height: auto;
 }
 
-.bannerLiga{
-  
+.bannerLiga {
   margin: 10px;
   width: 50%;
   height: 400px;
   border: 10px solid black;
 }
 
-.nomeLiga{
-  
+.nomeLiga {
+  align-items: center;
   font-size: 60px;
-  margin-left: 100px;
+  margin-left: 150px;
   color: rgba(0, 0, 0, 0.535);
-
 }
 
-nav{
+nav {
   width: 100%;
 }
 
-ul{
+ul {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
   
 }
 
-li{
+li {
   list-style: none;
   color: white;
   cursor: pointer;
@@ -55,13 +65,60 @@ li{
   font-family: 'Times New Roman', Times, serif;
 }
 
-li:hover{
+li:hover { 
   color: rgba(148, 0, 211, 0.701);
 }
 
-.navLiga{
+.navLiga {
   display: flex;
   align-items: center;
   background-color: rgba(69, 63, 63, 0.352);
   color: white;
 }
+
+body {
+  background-color: rgba(128, 128, 128, 0.50);
+  padding: 10px;
+}
+
+.bodyProjeto {
+  align-items: center;
+  border: 3px solid grey;
+  padding: 10px 0px 10px 30px;
+  margin-top: 5px;
+}
+
+article {
+  display: flex;
+  align-items: center;
+}
+
+.bodyFilme {
+  align-items: center;
+  border: 3px solid grey;
+  padding: 10px 0px 10px 30px;
+  margin-top: 5px;
+}
+
+.bodyPersonagens {
+  align-items: center;
+  border: 3px solid grey;
+  padding: 10px 0px 10px 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.imagemPersonagens {
+  display: flex;
+ /* border: 3px solid grey;*/
+  padding: 10px 10px 10px 10px;
+}
+
+.aquaman,.batman,.ciborg,.flash,.mulher_m,.superman {
+  display: grid;
+  grid-row: 3;
+  border-radius:50%;
+}
+
+
+
